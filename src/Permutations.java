@@ -19,8 +19,6 @@ public class Permutations {
         l.add(nums[0]);
         ans.add(l);
         
-        
-        
         return ans;
     }
 	
