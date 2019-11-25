@@ -5,8 +5,8 @@ import java.util.Map.Entry;
 
 public class MostCommonWord {
 	
-//	DUMBASS MODIFICATIONS HAS BEEN DONE TO SUIT THE STUPID LC TESTCASES
-
+//	SOME MODIFICATIONS HAS BEEN DONE TO SUIT LC TESTCASES
+    
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
@@ -61,9 +61,7 @@ public class MostCommonWord {
         		res = m.getKey();
         	}
 
-        	
         }
-
         return res;
     }
 
