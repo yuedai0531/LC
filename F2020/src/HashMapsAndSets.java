@@ -10,8 +10,9 @@ public class HashMapsAndSets {
         int[] arr = {1, 3, 6, 4, 1, 2};
 
         HashSet<Integer> set = new HashSet(Arrays.asList(arr));
-        Set<Integer> mySet = Arrays.stream(arr).boxed().collect(Collectors.toSet());
 
+        // THIS IS GOLD
+        Set<Integer> mySet = Arrays.stream(arr).boxed().collect(Collectors.toSet());
 
         System.out.println(Arrays.toString(set.toArray()));
 
